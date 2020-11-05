@@ -1,0 +1,129 @@
+:root{
+    --dgrey: #ececec;
+    --pinkoid: #ff6c91;
+    --lightblueoid: #64FAB2;
+}
+
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+    padding: 1em 2em;
+    font-size: 18px;
+    background: #222;
+    background: var(--pinkoid);
+    color: var(--dgrey);
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 2em; /* Position the navbar at the top of the page */
+    left: 5%;
+    right: 10%;
+    width: 90%; /* Full width */
+
+  }
+  
+  /* Links inside the navbar */
+.navbar a {
+    font-weight: 600;
+    float: right;
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-size: 1.9em;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    background-color: #444;
+}
+  
+  /* Change background on mouse-over */
+.navbar a:hover {
+    color: #80ffc1;
+}   
+
+#cv {
+    background: #fff;
+    color: #000;
+    opacity: 1;  
+    transition: 0.3s;
+    border-radius: .9em;
+}
+#cv:hover {
+    opacity: 1;
+    background: #000;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    font-weight: 200;
+    margin: 0.4em 0;
+}
+  h1 { 
+    font-size: 4em;
+    font-weight: 550;
+}
+  h2 {
+    font-size: 2.8em;
+}
+h3 {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.intro {
+    padding-top: 6em;
+    margin: auto;
+    width: 100%;
+    font-size: 1.2em;
+}
+.intro p{
+    font-size: 1.6em;
+}   
+
+img.statue {
+    position: absolute;
+    right: 200px;
+    bottom: 10em;
+    width: 20%;
+  }
+  
+
+.randgen {
+    width: 50vw;
+    margin: auto;
+    float: left;
+}
+
+.set {
+    height: 100vh;
+    width: 70vw;
+    padding-top: 3em;
+}
+li {
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .navbar a{
+        font-size: 1.4em;
+        padding: 14px 8px;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    .intro p{
+        font-size: 1.3em;
+    }
+    img.statue {
+        bottom: 5em;
+      }
+    
+  }
+@media only screen and (min-width: 1400px) {
+    .intro{
+        width: 70%;
+    } 
+  }
