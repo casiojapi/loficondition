@@ -19,7 +19,7 @@ html, body {
     position: fixed; /* Set the navbar to fixed position */
     top: 2em; /* Position the navbar at the top of the page */
     left: 5%;
-    right: 10%;
+    right: 5%;
     width: 90%; /* Full width */
     z-index: 1;
 
@@ -134,23 +134,26 @@ li img {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .navbar a{
-        font-size: 1.4em;
-        padding: 14px 8px;
+        font-size: 1.2em;
+        padding: 10px 8px;
     }
     h1 {
         font-size: 3em;
+    }
+    .intro {
+        width: 100%;
     }
     .intro p{
         font-size: 1.3em;
     }
     img.statue {
-        bottom: 5em;
+        bottom: 1em;
       }
     .sectioni {
         background-color: #eee;
         border-radius: 1em;
         padding: 1em;
-        width: 100%;
+        width: 70%;
     }
     .sectioni img {
         display: none;
