@@ -1,21 +1,3 @@
-# loficondition website
+# (loficondition website)[https://maximop2p.github.io/loficondition/]
 
-
-
-AJ
-
-
-
-Credits:
-    Design: 
-        aj@lkn.io | @ajlkn
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+website for music marketing platform.

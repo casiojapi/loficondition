@@ -21,6 +21,7 @@ html, body {
     left: 5%;
     right: 10%;
     width: 90%; /* Full width */
+    z-index: 1;
 
   }
   
@@ -73,7 +74,7 @@ h3 {
 }
 
 .intro {
-    padding-top: 6em;
+    padding-top: 4em;
     margin: auto;
     width: 100%;
     font-size: 1.2em;
@@ -87,6 +88,7 @@ img.statue {
     right: 200px;
     bottom: 10em;
     width: 20%;
+    z-index: 0;
   }
   
 
@@ -101,10 +103,34 @@ img.statue {
     width: 70vw;
     padding-top: 3em;
 }
-li {
-    font-size: 1.5em;
-    padding: 0.5em;
+
+ul {
+    list-style: none;
 }
+li {
+    font-size: 1.2em;
+    color: #333;
+    padding: 1em;
+}
+.sectioni {
+    background-color: #eee;
+    border-radius: 1em;
+    padding: 1em;
+    width: 70%;
+}
+li img {
+    width: 100%;
+    padding: 1em 1em 0em 0em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2em;
+}
+
+.contacto {
+    padding: 2em 0em;
+}
+
+
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .navbar a{
@@ -120,6 +146,15 @@ li {
     img.statue {
         bottom: 5em;
       }
+    .sectioni {
+        background-color: #eee;
+        border-radius: 1em;
+        padding: 1em;
+        width: 100%;
+    }
+    .sectioni img {
+        display: none;
+    }
     
   }
 @media only screen and (min-width: 1400px) {
@@ -127,3 +162,4 @@ li {
         width: 70%;
     } 
   }
+
