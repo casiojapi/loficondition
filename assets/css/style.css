@@ -135,7 +135,11 @@ li img {
     /* For mobile phones: */
     .navbar a{
         font-size: 1.2em;
-        padding: 10px 8px;
+        padding: 10px 6px;
+    }
+    .set {
+        height: auto;
+        padding-left: 0;
     }
     h1 {
         font-size: 3em;
@@ -148,17 +152,24 @@ li img {
     }
     img.statue {
         bottom: 1em;
+        display: none;
       }
     .sectioni {
         background-color: #eee;
         border-radius: 1em;
         padding: 1em;
-        width: 70%;
+        width: 100%;
     }
     .sectioni img {
         display: none;
     }
-    
+    .intro {
+        /* margin-left: 0; */
+        font-size: 0.8em;
+    }
+    li {
+        padding-left: 0em;
+    }
   }
 @media only screen and (min-width: 1400px) {
     .intro{
